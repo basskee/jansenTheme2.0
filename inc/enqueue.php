@@ -1,7 +1,7 @@
 <?php
 
 /*
-@package jansen
+@package jansentheme
 
 	====================================
 	ADMIN ENQUEUE FUNCTIONS

@@ -1,7 +1,7 @@
 <?php 
 
 /*
-@package jansen
+@package jansentheme
 
 	====================================
 	THEME SUPPORT OPTIONS
