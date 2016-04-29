@@ -1,50 +1,159 @@
-
-	/*
+/*
 		@package jansentheme
 	 */
-	
+/*	VARIABLES
+==========================================================================*/
+/*	MIXINS
+==========================================================================*/
+/* ==========================================================================
+   RESET
+   ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 /* ==========================================================================
    GLOBAL
-   ========================================================================== */	
-body{
-	font-family: 'Ralway', 'Helvetica Neue', 'Helvetica', Arial, Veranda, sans-serif;
-}
+   ========================================================================== */
+body {
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; }
 
+.background-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-.background-image{
-	background-position: center center;
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-.table{	
-	display: table;
-	width: 100%;
-	height: 100%;
-}
-.table-cell{
-	display: table-cell;
-	width: 100%;
-	height: 100%;
-	vertical-align: middle;
-}
+.table {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .table .table-cell {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; }
+
 /* ==========================================================================
    HEADER
-   ========================================================================== */	
+   ========================================================================== */
+.header-container {
+  position: relative;
+  display: block;
+  height: 375px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }
 
-.header-container{
-	position:relative;
-	display: block;
-	height: 326px; 
-	text-align: center;
-	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-}
-.site-title{
-	color:#fff;
-	margin: 0;
-}
-.site-description{
-	font-size: 14px;
-	color:#fff;
-	margin-top: .4em;
-}
+.site-title {
+  color: #fff;
+  margin: 0;
+  font-size: 3.5em; }
+
+.site-description {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 1em; }
+
+.nav-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+nav,
+.navbar-nav {
+  float: none; }
+
+.navbar-default {
+  background-color: transparent; }
+
+.navbar-jansen {
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  min-height: auto;
+  margin-bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .navbar-jansen ul {
+    float: none; }
+
+.navbar-jansen ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+  float: none; }
+
+.navbar-jansen ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.7;
+  letter-spacing: .05em;
+  background: none;
+  -webkit-transition: opacity 320ms ease;
+  -moz-transition: opacity 320ms ease;
+  -ms-transition: opacity 320ms ease;
+  -o-transition: opacity 320ms ease;
+  transition: opacity 320ms ease; }
+  .navbar-jansen ul li a:hover, .navbar-jansen ul li a:focus, .navbar-jansen ul li a:visited {
+    background: none;
+    opacity: 1; }
+    .navbar-jansen ul li a:hover:after, .navbar-jansen ul li a:focus:after, .navbar-jansen ul li a:visited:after {
+      opacity: 1;
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px); }
+  .navbar-jansen ul li a:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 15px;
+    right: 15px;
+    bottom: 10px;
+    height: 2px;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 320ms ease;
+    -moz-transition: all 320ms ease;
+    -ms-transition: all 320ms ease;
+    -o-transition: all 320ms ease;
+    transition: all 320ms ease;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px); }
+
+/*# sourceMappingURL=jansen.css.map */

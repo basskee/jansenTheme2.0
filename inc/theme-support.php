@@ -28,3 +28,11 @@ $background = get_option('custom_background');
 if(@$background ==1 ){
 	add_theme_support('custom-background' );
 }
+
+/*Activate Navigation Menu Option*/
+
+function jansen_register_nav_menu(){
+	register_nav_menu( 'main-menu' , 'Header Navigation Menu' );
+	register_nav_menu( 'footer-menu', 'Footer Menu' );
+}
+add_action( 'after_setup_theme', 'jansen_register_nav_menu');

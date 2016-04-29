@@ -1,6 +1,7 @@
 <?php 
 
 //ADDING Templates in INC FOLDER
+require get_template_directory() . '/inc/cleanup.php';
 require get_template_directory() . '/inc/function-admin.php';
 require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/theme-support.php';
@@ -15,7 +16,7 @@ if( get_option('thread_comments') ){
 
 
 //ENABLE MENU OPTIONS
-add_theme_support("menus");
+// add_theme_support("menus");
 
 //ENABLE FEATURED IMAGE
 add_theme_support('post-thumbnails');
@@ -24,13 +25,6 @@ add_image_size('banner-image', 1002, 210, true);
 add_image_size('medium-thumbnail', 267, 200, true);
 add_image_size('slider-image', 1000, 350, true);
 
-//REGISTER MENU
-function set_menu_areas()
-{
-	register_nav_menu( "main-menu" , "Primary Menu" );
-	register_nav_menu( "footer-menu" , "Footer Menu" );
-}
-add_action("init","set_menu_areas");
 
 //REGISTER SIDEBAR
 register_sidebar(array(
