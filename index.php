@@ -1,44 +1,34 @@
-<?php get_header(); ?> 
-	
-<div class="page-content">
-	<div class="inner-content">
-		<div class="page-title">
-			<h1>Blog</h1>
-		</div>
-		<div class="contentleft">
-		<div class="blog">
+<?php /*
 
-			<?php if( have_posts() ) : while(have_posts() ) : the_post(); ?>
+@package jansentheme
 
-				<div class="post <?php if (has_post_thumbnail()) { ?>
-					has-thumbnail
-				<?php } ?>" >
+*/
 
-				<div class="post-thumbnail">
-					<?php the_post_thumbnail('small-thumbnail') ?>
-				</div>
+get_header(); ?>
 
-				<h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<div class="author">
-					In <?php the_category("&nbsp;/&nbsp;"); ?> by
-					<a href="<?php echo get_author_posts_url(get_the_author_meta( "ID" )); ?>">
-						<?php the_author() ?>
-					</a>
-					on the <?php the_time("F j, Y"); ?></div>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			<div class="container">
 				
-				<p><?php the_excerpt(); ?></p>
-				<div class="tags">
-				<?php the_tags('Tags: ', '&nbsp;/&nbsp;'); ?>
-				</div>
-				<div class="btn"><a href="<?php the_permalink(); ?>">Read More</a></div>
-			</div>
-			<?php endwhile; endif; ?>
-		</div>
-		</div>	
-		<div class="contentright">
-			<?php get_sidebar(); ?>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
+			<?php  
+				if( have_posts() ):
+
+					while( have_posts() ): the_post();
+						get_template_part( 'template-parts/content', get_post_format() );
+					endwhile;
+
+				endif
+			?>
+
+			</div><!--  .container -->
+		</main>	
+	</div><!-- #primary -->
+
+
+
+
+
+
+
+
 <?php get_footer(); ?>

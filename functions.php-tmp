@@ -6,22 +6,12 @@ require get_template_directory().'/inc/function-admin.php';
 require get_template_directory().'/inc/enqueue.php';
 require get_template_directory().'/inc/theme-support.php';
 require get_template_directory().'/inc/custom-post-type.php';
-// require get_template_directory() . '/inc/walker.php';
+require get_template_directory().'/inc/walker.php';
 
 //ADDING COMMENTS
 if (get_option('thread_comments')) {
 	wp_enqueue_script('comment-reply');
 }
-
-//ENABLE MENU OPTIONS
-add_theme_support("menus");
-
-//ENABLE FEATURED IMAGE
-add_theme_support('post-thumbnails');
-add_image_size('small-thumbnail', 180, 120, true);
-add_image_size('banner-image', 1002, 210, true);
-add_image_size('medium-thumbnail', 267, 200, true);
-add_image_size('slider-image', 1000, 350, true);
 
 //REGISTER SIDEBAR
 register_sidebar(array(

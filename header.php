@@ -40,7 +40,7 @@
 										'theme_location' => 'primary',
 										'container' => false,
 										'menu_class' => 'nav navbar-nav',
-										// 'walker' => new Jansen_Walker_Nav_Primary()
+										'walker' => new Jansen_Walker_Nav_Primary()
 									) );
 							?>
 						</nav>
