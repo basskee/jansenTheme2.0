@@ -125,24 +125,25 @@ nav,
 .navbar-jansen ul li {
         display: inline-block;
         list-style-type: none;
-        padding: 20px;
         float: none;
         position:relative;
 }
-.navbar-jansen ul li a{
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 250, 240, 1);
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
     font-size: 12px;
-    opacity: 0.7;
     letter-spacing: .05em;
     background: none;
+    opacity: 0.7;
 
     @include animate( opacity, 320ms);
     &:hover,
     &:focus,
     &:visited {
         background: none;
+        color: #fff;
         opacity: 1;
         &:after{
         	opacity: 1;

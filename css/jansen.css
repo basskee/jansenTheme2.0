@@ -107,33 +107,33 @@ nav,
 .navbar-jansen ul li {
   display: inline-block;
   list-style-type: none;
-  padding: 20px;
   float: none;
   position: relative; }
 
-.navbar-jansen ul li a {
+.navbar-default .navbar-nav > li > a {
+  color: floralwhite;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
   font-size: 12px;
-  opacity: 0.7;
   letter-spacing: .05em;
   background: none;
+  opacity: 0.7;
   -webkit-transition: opacity 320ms ease;
   -moz-transition: opacity 320ms ease;
   -ms-transition: opacity 320ms ease;
   -o-transition: opacity 320ms ease;
   transition: opacity 320ms ease; }
-  .navbar-jansen ul li a:hover, .navbar-jansen ul li a:focus, .navbar-jansen ul li a:visited {
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:visited {
     background: none;
+    color: #fff;
     opacity: 1; }
-    .navbar-jansen ul li a:hover:after, .navbar-jansen ul li a:focus:after, .navbar-jansen ul li a:visited:after {
+    .navbar-default .navbar-nav > li > a:hover:after, .navbar-default .navbar-nav > li > a:focus:after, .navbar-default .navbar-nav > li > a:visited:after {
       opacity: 1;
       -webkit-transform: translateY(-6px);
       -moz-transform: translateY(-6px);
       -ms-transform: translateY(-6px);
       -o-transform: translateY(-6px); }
-  .navbar-jansen ul li a:after {
+  .navbar-default .navbar-nav > li > a:after {
     content: "";
     position: absolute;
     display: block;
