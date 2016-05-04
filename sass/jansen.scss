@@ -4,8 +4,9 @@
 //	IMPORT
 //==========================================================================
 
-@import 'base/variables'; //variables
-@import 'base/mixins'; //mixins
+@import 'base/variables'; 		//variables
+@import 'base/placeholders'; 	//placeholders
+@import 'base/mixins'; 			//mixins
 
 /* ==========================================================================
    RESET
@@ -58,11 +59,11 @@ a {
    ========================================================================== */
 
 .header-container {
+	@extend %text-shadow;
     position: relative;
     display: block;
     height: 375px;
     text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .site-title {
@@ -130,12 +131,16 @@ a {
 /* ==========================================================================
    STANDARD POST FORMAT 
    ========================================================================== */
+article{
+	margin-bottom: 40px;
+}
+
 h1{
 	font-size: 48px;
 	font-weight: 200;
 	&.entry-title{
 	line-height: 1.5em;
-	margin: 40px 0 0px;
+	margin: 30px 0 0px;
 	padding: 0;
 	position:relative;
 	display:inline-block;
@@ -162,7 +167,8 @@ h1{
 }
 .entry-meta{
 	font-size: 13px;
-	font-weight: 300;
+	font-weight: 200;
+	margin-bottom: 30px;
 	color: $light-grey;
 	a{
 		font-weight: 500;
@@ -201,5 +207,97 @@ h1{
 		left: 0;
 		background-color: rgba(0,0,0,0.15);
 		box-shadow:inset 0 0 15px rgba(0,0,0,0.35);
+	}
+}
+.entry-excerpt{
+	margin: 30px 0 16px;
+	p{
+		font-size: 17px;
+		line-height: 1.5em;
+		font-weight: 300;
+		letter-spacing: 0.02em;
+	}
+}
+.button-container{
+	margin-bottom: 30px;
+
+}
+.btn-jansen{
+	@include animate( all, 332ms);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	color:$light-grey;
+	padding: 8px 12px;
+	border-radius: 0;
+	border: 1px solid $light-grey;
+	background-color: transparent;
+	&:hover,
+	&:focus{
+		color: #fff;
+		border-color:$dark-grey;
+		background-color: $dark-grey;
+	}
+}
+.entry-footer{
+	padding: 10px 5px;
+	border-bottom: 4px solid $lighter-grey;
+	color:$light-grey;
+	text-transform: uppercase;
+
+	a{
+		color:$light-grey;
+		display: inline-block;
+		font-size: 12px;
+		&:hover,
+		&focus{
+			color: $dark-grey;
+		}
+	}
+	.tags-list{
+		.sunset-icon{
+			margin-right: 10px;
+		}
+		a{
+			padding: 0 4px;
+		}
+	}
+	.comments-link{
+		.sunset-icon{
+			margin-left: 10px;
+		}
+	}
+}
+
+/* ==========================================================================
+   IMAGE POST FORMAT 
+   ========================================================================== */
+
+.jansen-format-image{
+	.entry-header{
+		position:relative;
+		height: 600px;
+		@extend %text-shadow;
+	}
+	h1,
+	.entry-meta,
+	.entry-header{
+		color: #fff;
+		a{
+			color:#fff;
+		}
+	}
+}
+.entry-excerpt{
+	&.image-caption{
+		@extend %background-gradient;
+		position:absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin:0;
+		p{
+			margin:25px 0;
+		}
 	}
 }

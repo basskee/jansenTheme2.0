@@ -32,8 +32,8 @@ $featured_image = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()));
 <?php the_excerpt();?>
 		</div>
 
-		<div class="button-container">
-			<a href="<?php the_permalink();?>" class="btn btn-info"><?php _e('Read More');
+		<div class="button-container text-center">
+			<a href="<?php the_permalink();?>" class="btn btn-jansen"><?php _e('Read More');
 ?></a>
 		</div>
 

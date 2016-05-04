@@ -34,8 +34,8 @@
 			<?php the_excerpt(); ?>
 		</div>
 
-		<div class="button-container">
-			<a href="<?php the_permalink(); ?>" class="btn btn-info"><?php _e( 'Read More' ); ?></a>
+		<div class="button-container text-center">
+			<a href="<?php the_permalink(); ?>" class="btn btn-jansen"><?php _e( 'Read More' ); ?></a>
 		</div>
 
 	</div> <!-- entry-content -->
