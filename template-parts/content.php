@@ -9,9 +9,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="entry-header text-center">
 		
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title"><a href="'. esc_url(get_permalink() ) .'" rel="bookmark">', '</a></h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php echo jansen_posted_meta(); ?>
@@ -22,8 +22,12 @@
 
 	<div class="entry-content">
 		
-		<?php if( has_post_thumbnail() ): ?>
-			<div class="standard-featured"><?php the_post_thumbnail(); ?></div>
+		<?php if( has_post_thumbnail() ):
+			$featured_image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) );
+		?>	
+			<a class="standard-featured-link" href="<?php get_permalink(); ?>">
+			<div class="standard-featured background-image" style="background-image: url(<?php echo $featured_image; ?>);"></div>
+			</a>
 		<?php endif; ?>
 
 		<div class="entry-excerpt">

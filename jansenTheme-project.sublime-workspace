@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"list",
 				"list-style-type"
 			],
@@ -78,10 +90,6 @@
 			[
 				"fu",
 				"fullName"
-			],
-			[
-				"backg",
-				"background-color"
 			],
 			[
 				"do_se",
@@ -180,10 +188,6 @@
 				"register_sidebar"
 			],
 			[
-				"max",
-				"max-width"
-			],
-			[
 				"the",
 				"the_author"
 			],
@@ -223,38 +227,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 1696,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/jansen.scss",
-			"settings":
-			{
-				"buffer_size": 5117,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/theme-support.php",
-			"settings":
-			{
-				"buffer_size": 2843,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "jansenTheme-project.sublime-project",
-			"settings":
-			{
-				"buffer_size": 238,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -263,10 +235,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 219.0,
-		"last_filter": "install",
+		"height": 104.0,
+		"last_filter": "remove p",
 		"selected_items":
 		[
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -338,13 +314,48 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0"
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/inc",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/base"
 	],
 	"file_history":
 	[
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/014/live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/015/live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/013/live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/012/live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/015/dev/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/011/live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/008/008-live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/004/004-live/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/014/dev/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/014/dev/adcopy.css",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/013/dev/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/011/dev/adcopy.css",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/012/dev/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/012/dev/adcopy.css",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/011/dev/index.html",
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/010/010-test/index.html",
+		"/C/xampp/htdocs/sites/TheBodyArtistry/wp-content/themes/astrid-child/style.css",
+		"/C/xampp/htdocs/sites/tbafitness/wp-content/themes/perth child/style.css",
+		"/C/xampp/htdocs/sites/TheBodyArtistry/wp-content/themes/astrid-child/header.php",
+		"/C/xampp/htdocs/sites/tbafitness/wp-content/themes/perth child/header.php",
+		"/C/xampp/htdocs/sites/TheBodyArtistry/wp-content/themes/astrid-child/js/child-custom-scripts.js",
+		"/C/xampp/htdocs/sites/TheBodyArtistry/wp-content/themes/astrid-child/functions.php",
+		"/C/xampp/htdocs/sites/tbafitness/wp-content/themes/perth child/functions.php",
+		"/C/xampp/htdocs/sites/tbafitness/wp-content/themes/perth/style.css",
+		"/C/xampp/htdocs/sites/tbafitness/wp-content/themes/perth child/js/navigation.js",
+		"/C/xampp/htdocs/sites/Under_Scores/wp-content/themes/popperscores/header.php",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/header.php",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/jansen.scss",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/template-parts/content.php",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/base/_variables.scss",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/css/jansen.css",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/base/_mixins.scss",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/base/_font-icons.scss",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/inc/theme-support.php",
+		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/jansenTheme-project.sublime-project",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 19/css/sunset.css",
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/index.php",
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/template-parts/content.php",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
@@ -352,14 +363,12 @@
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/blake-task-list.todo",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 18/sass/sunset.scss",
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/css/jansen.css",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 18/css/sunset.css",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 18/inc/theme-support.php",
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/inc/walker.php",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 18/header.php",
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/inc/enqueue.php",
 		"/C/xampp/htdocs/themes/Sunset-theme-master/Sunset-theme-master/Lesson 18/inc/walker.php",
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/inc/theme-support.php",
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/css/jansen2.css",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen2.0/sass/reset.scss",
@@ -408,7 +417,6 @@
 		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen/404.php",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/010/010-test/adcopy.css",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/010/010-live/index.html",
-		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/010/010-test/index.html",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/009/009-test/adcopy.css",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/009/009-test/index.html",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/009/009-live/index.html",
@@ -432,44 +440,13 @@
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/User/CSS Format.sublime-settings",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/005/005-live/index.html",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/005/005-live/adcopy.css",
-		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/004/004-live/index.html",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/003/003-live/index.html",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/003/003-live/adcopy.css",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/002/002-live/adcopy.css",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/002/002-live/index.html",
 		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/001/001-live/index.html",
-		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/001/001-live/adcopy.css",
-		"/M/tbaFitness/index2.php",
-		"/M/tbaFitness/index.php-tmp",
-		"/M/tbaFitness/index.php",
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/jansen/jansen-dev.css",
-		"/E/index.php",
-		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/C855/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/jansen/wordpress/wp-content/themes/twentyfifteen/index.php",
-		"/C/xampp/htdocs/jansen/wordpress/index.php",
-		"/C/xampp/htdocs/sites/Bones/index.php",
-		"/C/xampp/htdocs/sites/Bones/wp-config.php",
-		"/C/xampp/htdocs/sites/Vagrant/vagrantfile/Vagrantfile.sample",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/Stylus/main.styl",
-		"/C/xampp/apache/logs/error.log",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/Stylus/main.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/Stylus/index.html",
-		"/C/Users/C855/Dropbox/Blake2.0/Grand Circus/Blake_DeBaske_10-25/type/font-awesome/css/font-awesome.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/Stylus/package.json",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 18 - LCD Converter/index.html",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 18 - LCD Converter/script.js",
-		"/C/Users/C855/Google Drive/Projects/Fight Sticks/style.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 17-Creating-Modules and Routing/pushy/style.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 17-Creating-Modules and Routing/style.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 16/style.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Labs/Lab 17/style.css",
-		"/C/GitMaster/theater/.git/FETCH_HEAD",
-		"/C/Users/C855/Google Drive/Grand Circus/Resume Site/BlakeDebaske-ResumeSite-10-21-15/style.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/CSS Positioning 10-27/stylesheet.css",
-		"/C/Users/C855/Google Drive/Grand Circus/Exercises/CSS Positioning 10-27/index.html",
-		"/C/Users/C855/Google Drive/Resume Site/style.css"
+		"/C/Users/C855/Google Drive/Projects/EnablePoint/Spectrum/slicks/001/001-live/adcopy.css"
 	],
 	"find":
 	{
@@ -487,6 +464,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navigation",
+			".site-logo",
+			"global",
 			"sunset",
 			"jansen",
 			"sunset",
@@ -521,325 +501,6 @@
 	"groups":
 	[
 		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1480,
-								1437
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 335.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/jansen.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1776,
-								1760
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"function_name_status_row": 68,
-							"incomplete_sync": null,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 661.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/theme-support.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2843,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2843,
-								2843
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"function_name_status_row": 107,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1592.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "jansenTheme-project.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								183
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"function_name_status_row": 12,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
 			"sheets":
 			[
 			]
@@ -860,32 +521,18 @@
 			[
 				0,
 				0,
-				2,
+				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.615915915916,
 			1.0
 		]
 	},
